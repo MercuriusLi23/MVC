@@ -11281,7 +11281,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-$square = (0, _jquery2.default)('#app3 .square');
+var $square = (0, _jquery2.default)('#app3 .square');
 $square.on('click', function () {
     $square.toggleClass('active'); //toggleClass可以用来实现自己做到有（）中的效果就删掉，没有就加上 从而达到一个反复的动作
 });
@@ -11317,4 +11317,4 @@ require('./app3.js');
 
 require('./app4.js');
 },{"./global.css":"KmRI","./reset.css":"KmRI","./app1.js":"U+s5","./app2.js":"vZ5o","./app3.js":"y8lT","./app4.js":"eWpN"}]},{},["epB2"], null)
-//# sourceMappingURL=/main.d8826e3b.map
+//# sourceMappingURL=/main.c5d271e2.map

@@ -100,6 +100,6 @@ ul {
 
 }
 
-#app4 .circle .active {
+#app4 .circle.active {
     animation: change 3s infinite alternate linear;
 }
